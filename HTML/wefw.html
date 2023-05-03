@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.notification {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 9999;
+  max-width: 500px;
+  width: 80%;
+}
+
+.notification p {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.notification button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name"><br>
+      
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br>
+      
+        <label for="message">Сообщение:</label>
+        <textarea id="message" name="message"></textarea><br>
+      
+        <button id="save-button">Сохранить</button>
+      </form>
+<script>
+ (function() {
+  var saveButton = document.getElementById('save-button');
+  saveButton.addEventListener('click', function(e) {
+    e.preventDefault();
+    
+    // собираем данные из формы
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('message').value;
+    
+    // сохраняем данные в XML
+    var xml = '<?xml version="1.0" encoding="UTF-8"?>\n';
+    xml += '<data>\n';
+    xml += '  <name>' + name + '</name>\n';
+    xml += '  <email>' + email + '</email>\n';
+    xml += '  <message>' + message + '</message>\n';
+    xml += '</data>';
+    
+    // отправляем XML-файл на сервер (можно использовать XMLHttpRequest())
+    
+    // отображаем уведомление на экране
+    var notification = document.createElement('div');
+    notification.className = 'notification';
+    notification.innerHTML = '<button>&times;</button><p>Спасибо, ' + name + ', ваше сообщение сохранено!</p>';
+    document.body.appendChild(notification);
+    
+    // установим обработчик на кнопку закрытия уведомления
+    var closeButton = notification.querySelector('button');
+    closeButton.addEventListener('click', function() {
+      document.body.removeChild(notification);
+    });
+  });
+})();
+
+
+</script>      
+</body>
+</html>
