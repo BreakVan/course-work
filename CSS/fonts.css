@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Valisca";
+    src: url("/course-work/fonts/Valisca/Valisca.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Theater Atlas Deco";
+    src: url("/course-work/fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Open Sans";
+    src: url("/course-work/fonts/OpenSans/OpenSans-Italic-VariableFont_wdth\,wght.ttf") format("truetype");
+    src: url("/course-work/fonts/OpenSans/OpenSans-VariableFont_wdth\,wght.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Sport Express Inline";
+    src: url("/course-work/fonts/Sport-Express-Inline/Sport-Express-Inline.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Broadway Neon";
+    src: url("/course-work/fonts/Broadway-Neon/Broadway-Neon.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Diplomatia Two";
+    src: url("/course-work/fonts/Diplomatia-Two/Diplomatia-Two.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: "Nord Star Deco";
+    src: url("/course-work/fonts/Nord-Star-Deco/Nord-Star-Deco.ttf") format("truetype");
+  } 

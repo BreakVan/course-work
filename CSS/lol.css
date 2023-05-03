@@ -1,34 +1,16 @@
-@font-face {
-  font-family: "Valisca";
-  src: url("/mew/fonts/Valisca/Valisca.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Theater Atlas Deco";
-  src: url("/mew/fonts/Theater-Atlas-Deco/Theater-Atlas-Deco.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Open Sans";
-  src: url("/mew/fonts/OpenSans/static/OpenSans-Light.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Sport Express Inline";
-  src: url("/mew/fonts/Sport-Express-Inline/Sport-Express-Inline.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Broadway Neon";
-  src: url("/mew/fonts/Broadway-Neon/Broadway-Neon.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Diplomatia Two";
-  src: url("/mew/fonts/Diplomatia-Two/Diplomatia-Two.ttf") format("truetype");
-}
-@font-face {
-  font-family: "Nord Star Deco";
-  src: url("/mew/fonts/Nord-Star-Deco/Nord-Star-Deco.ttf") format("truetype");
+body, footer {
+  background: #333333;
+  margin: 0;
+  padding: 0;
 }
 
-body, footer {
-  background: rgba(51, 51, 51, 1);
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+  align-self: center;
 }
 
 .section h1{
@@ -36,13 +18,12 @@ body, footer {
   font-size: 30px;
 }
 
-#about h1 {
-  margin-top: 5px;
-}
 
 h1, h2 {
   text-align: center;
-  color: #fff; 
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
 
 .logo {
@@ -61,6 +42,8 @@ h1, h2 {
 }
 
 .phone {
+  display: flex;
+  justify-content: flex-end;
   width: auto;
   color: rgb(255, 255, 255);
   top: auto;
@@ -84,19 +67,20 @@ h1, h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   position: absolute;
   top: 50px;
   right: 5%;
   z-index: 1;
   background-color: rgba(51, 51, 51, 0.0);
+  margin: 0;
+  padding: 0;
 }
 
 .menu ul {
   list-style-type: none;
+  display: flex;
   margin: 0;
   padding: 0;
-  display: flex;
 }
 
 .menu ul li {
@@ -116,10 +100,16 @@ h1, h2 {
   color: #000;
 }
 
+.background-container {
+  position: relative;
+  bottom: -180px;
+  float: left;
+  left: 10%;
+  width: 150px;
+  height: 50px;
+}
 .menu-button {
   position: relative;
-  bottom: -200px;
-  left: 10%;
   transform: translateX(-50%);
   width: 150px;
   height: 50px;
@@ -134,32 +124,27 @@ h1, h2 {
 
 .menu-button:hover {
   background-color: #fff;
-  color: rgba(51, 51, 51, 1);
-  
+  color: rgba(51, 51, 51, 1); 
 }
 
-.main_part {  
-  width:100%;
-  height:100%;
+.wrapper1 {
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
-  background-size:contain;
-  background-position:center top;
-  background-image: url(/mew/course-work/images/other/theater.png);
-
+  background-size: cover;
+  background-position: center top;
+  background-image: url(/course-work/images/other/theater.png);
 }
 
-.background-container {
-  position: relative;
-  height: 100vh;
-}
-/*----------------------------------------------------------------*/
-.grid1{
-  gap: 15px;
-  padding: 20px;
+
+.form {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;  
+  justify-content: center;
   align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
 }
 
 .box{
@@ -180,10 +165,14 @@ h1, h2 {
   align-items: center;
   flex-direction: column;
 }
+
 .about{
-  position: absolute;
-  bottom: 0;
-  width: 100%
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: auto;
+  overflow: hidden;
 }
 
 .feedback-form {
@@ -196,7 +185,7 @@ h1, h2 {
 }
 
 label, input, textarea, button {
-  margin: 5px 0;
+  margin: 5px 0;;
 }
 
 .contacts {
@@ -230,35 +219,38 @@ label, input, textarea, button {
 .feedback-form label {
   display: block;
   margin-bottom: 5px;
+
 }
 
 .feedback-form input {
+  width: 90%;
   margin-bottom: 10px;
   padding: 5px;
-  width: 90%;
 }
 
 .feedback-form textarea {
-  margin-bottom: 10px;
-  padding: 5px;
   width: 90%;
   height: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
 }
 
 .feedback-form button {
   background-color: #000;
   color: #fff;
-  padding: 10px;
   border: none;
   cursor: pointer;
   width: 100%;
   transition: all 0.3s ease-in-out;
+  padding: 10px;
+
 }
 
 .feedback-form button:hover {
   background-color: goldenrod;
   color: #000;
 }
+
 .container {
   display: flex;
   flex-direction: column;
@@ -269,6 +261,7 @@ label, input, textarea, button {
 .feedback-form {
   width: 50%;
 }
+
 /*----------------------------------------------------------------*/
 
 .me {
@@ -318,15 +311,15 @@ label, input, textarea, button {
 .line {
   width: 20px;
 }
+
 .line2 {
   display: flex;
   border-left: 6px solid rgb(255, 255, 255);
   height: 100px;
   position: absolute;
   left: 70%;
-  margin-left: -3px;
-  top: 2050px;
 }
+
 .line3 {
   display: flex;
   border-left: 6px solid rgb(255, 255, 255);
@@ -337,10 +330,8 @@ label, input, textarea, button {
   top: 2050px;
 }
 
-p {
+.contacts   p {
   font-size: large;
-  padding-bottom: 28px;
-  padding-top: 28px;
   text-align: center;
 }
 
@@ -359,16 +350,16 @@ hr {
   transform: translate(-50%, -50%);
   background-color: aliceblue;
   border: 1px solid rgba(51, 51, 51, 1);
-  padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   z-index: 9999;
   max-width: 500px;
   width: 80%;
+  padding: 20px;
 }
 
 .notification p {
-  margin: 0;
   padding: 0;
+  margin: 0;
   font-size: 18px;
 }
 
@@ -402,14 +393,28 @@ hr {
 .divo_texto {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .texto {
   color: aliceblue;
-  padding: 0;
-  margin-left: 59%;
+  
   display: inline-block;
+}
+.le_small_texto1{
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 1000px;
+  align-self: flex-end;
+
+}
+.le_small_texto2{
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  top: 220px;
+  left: 1000px;
 }
 
 .notification-window {
@@ -429,4 +434,40 @@ hr {
 .notification-window .close-button {
   display: block;
   margin-top: 10px;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+}
+
+.phone_number {
+  margin-left: 10px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin-right: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 100%;
 }

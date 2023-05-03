@@ -1,5 +1,10 @@
 .social-media {
+    height: 600px;
     position: relative;
+    display: flex;
+    float: right;
+    width: 100px;
+
   }
   
   .dropdown {
