@@ -33,7 +33,7 @@
   }
 
   .card-1 {
-    background-image: url(/course-work/images/plays/жоўты.png);
+    background-image: url(/images/plays/жоўты.png);
     border-radius: 5%;
     background-size: cover;
     width: 378px;
@@ -54,3 +54,16 @@
     height: 10%;
     width: 10%;
   }
+
+  .scene_img{
+    height: 10%;
+    width: 15%;
+  }
+  .seats_img{
+    height: 10%;
+    width: 15%;
+  }
+.visitors_img{
+  height: 10%;
+  width: 10%;
+}

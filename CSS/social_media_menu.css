@@ -3,14 +3,14 @@
     position: relative;
     display: flex;
     float: right;
-    width: 100px;
+    right: 80px;
+    width: 60px;
 
   }
   
   .dropdown {
+    bottom:20px;
     position: absolute;
-    right: 0;
-    
   }
   
   .dropbtn {
@@ -20,19 +20,21 @@
     font-size: 16px;
     cursor: pointer;
     transition: opacity 1s ease-in-out;
+
   }
   
   .dropdown-content {
     display: none;
     position: absolute;
     bottom: 100%;
-    right: 10;
     min-width: 120px;
     padding: 12px 16px;
     z-index: 1;
+    right: -64px;
   }
   
   .dropdown-content a {
+    right: 40px;
     display: block;
     margin: 3px;
     padding: 3px 3px;
@@ -48,5 +50,17 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
+    filter: invert(1);
   }
+
+.media{
+  height: 50px;
+  width: 50px;
+  background-size: cover;
+  right: 40px;
+}
+
+.balcony{
+  padding-top: 50px;
+}
   

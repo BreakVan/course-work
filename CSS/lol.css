@@ -3,103 +3,37 @@ body, footer {
   margin: 0;
   padding: 0;
 }
-
-.section {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  overflow: hidden;
-  align-self: center;
-}
-
-.section h1{
-  font-family: 'Nord Star Deco';
-  font-size: 30px;
-}
-
-
 h1, h2 {
   text-align: center;
   color: #fff;
   margin: 0;
   padding: 0;
 }
-
-.logo {
-  position: relative;
-  width: auto;
-  height: auto;
-  left: auto;
-  top: auto;
-}
-
-.phone_icon {
-  position: relative;
-  width: 1%;
-  height: 1%;
-  vertical-align: middle;
-}
-
-.phone {
+header {
   display: flex;
-  justify-content: flex-end;
-  width: auto;
-  color: rgb(255, 255, 255);
-  top: auto;
-  left: auto;
-  position: relative;
-  font-family: Open Sans;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: right;
-  padding-top: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
-
-.phone_number {
-  position: relative;
-  margin-top: 5px;
+hr {
+  margin-bottom: 20px;
 }
-
-/* Styles for the top menu */
-.menu {
+label, input, textarea, button {
+  margin: 5px 0;
+ ;
+}
+nav{
+  font-family:'';
+}
+.about{
   display: flex;
   justify-content: center;
-  align-items: center;
+  width: auto;
+  overflow: hidden;
   position: absolute;
-  top: 50px;
-  right: 5%;
-  z-index: 1;
-  background-color: rgba(51, 51, 51, 0.0);
-  margin: 0;
-  padding: 0;
+  bottom: 60px;
+  left: 0;
+  right: 0;
 }
-
-.menu ul {
-  list-style-type: none;
-  display: flex;
-  margin: 0;
-  padding: 0;
-}
-
-.menu ul li {
-  margin-right: 10px;
-}
-
-.menu ul li a {
-  text-decoration: none;
-  color: #fff;
-  padding: 5px;
-  border: 1px solid #fff;
-  transition: all 0.3s ease-in-out;
-}
-
-.menu ul li a:hover {
-  background-color: #fff;
-  color: #000;
-}
-
 .background-container {
   position: relative;
   bottom: -180px;
@@ -108,45 +42,6 @@ h1, h2 {
   width: 150px;
   height: 50px;
 }
-.menu-button {
-  position: relative;
-  transform: translateX(-50%);
-  width: 150px;
-  height: 50px;
-  background-color: #484848;
-  color: #fff;
-  font-size: 18px;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  transition: all 0.3s ease-in-out;
-}
-
-.menu-button:hover {
-  background-color: #fff;
-  color: rgba(51, 51, 51, 1); 
-}
-
-.wrapper1 {
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center top;
-  background-image: url(/course-work/images/other/theater.png);
-}
-
-
-.form {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  margin: 0;
-  gap: 15px;
-}
-
 .box{
   background-color: rgba(51, 51, 51, 1);
   font-size: 18px;
@@ -156,38 +51,14 @@ h1, h2 {
   justify-content: center;
   align-items: center;
 }
-
-.section {
+.contacts p {
+  font-size: large;
   text-align: center;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
-
-.about{
-  top: 100px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  width: auto;
-  overflow: hidden;
+.contacts p {
+  margin: 5px 0;
+  position: relative;
 }
-
-.feedback-form {
-  background-color: rgba(51,51,51,1);
-  color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-label, input, textarea, button {
-  margin: 5px 0;;
-}
-
 .contacts {
   color:rgba(255, 255, 255, 1);
   position:relative;
@@ -204,37 +75,19 @@ label, input, textarea, button {
   justify-content: center;
   align-items: center;
 }
-
-.contacts p {
-  margin: 5px 0;
-  position: relative;
+.contacts, .feedback-form {
+  width: 50%;
 }
-
-.privacy-note {
-  font-size: small;
-  color: rgba(151,151,151,1);
-
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-.feedback-form label {
-  display: block;
-  margin-bottom: 5px;
-
+.divo_texto {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-
-.feedback-form input {
-  width: 90%;
-  margin-bottom: 10px;
-  padding: 5px;
-}
-
-.feedback-form textarea {
-  width: 90%;
-  height: 100px;
-  margin-bottom: 10px;
-  padding: 5px;
-}
-
 .feedback-form button {
   background-color: #000;
   color: #fff;
@@ -243,58 +96,104 @@ label, input, textarea, button {
   width: 100%;
   transition: all 0.3s ease-in-out;
   padding: 10px;
-
 }
-
 .feedback-form button:hover {
   background-color: goldenrod;
   color: #000;
 }
-
-.container {
+.feedback-form input {
+  width: 90%;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+.feedback-form textarea {
+  width: 90%;
+  height: 100px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.feedback-form {
+  background-color: rgba(51,51,51,1);
+  color: #ffffff;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-
-.contacts,
-.feedback-form {
-  width: 50%;
-}
-
-/*----------------------------------------------------------------*/
-
-.me {
-  color: rgba(151, 151, 151, 1);
-  font-family: Open Sans;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: right;
-  margin-left: auto;
-  margin-right: 0;
-  justify-self: flex-end;
-}
-
 .footer_info {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
-.rights {
-  width: auto;
-  color: rgba(151, 151, 151, 1);
-  top: auto;
-  left: auto;
-  position: relative;
-  font-family: Open Sans;
-  font-weight: Regular;
-  font-size: 12px;
-  opacity: 1;
-  text-align: right;
+.form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
 }
+.input {
+  color: aliceblue;
+  width: 10px;
+  height: 20px;
+  background: transparent;
+}
+.le_small_texto1{
+  display: flex;
+  position: absolute;
+  top: 180px;
+  left: 1000px;
+  align-self: flex-end;
+}
+.le_small_texto2{
+  display: flex;
+  align-self: flex-start;
+  position: absolute;
+  top: 220px;
+  left: 1000px;
+}
+.line {
+  width: 20px;
+}
+.line2 {
+  display: flex;
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 300px;
+  width: 2px;
+  margin-top: 40px;
+  position: absolute;
+  left: 70%;
+}
+.line3 {
+  display: flex;
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 300px;
+  width: 2px;
+  margin-top: 40px;
+  position: absolute;
+  left: 30%;
 
+}
+.logo img {
+  max-width: 100%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  position: relative;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
 .made_by {
   width: auto;
   color: rgba(151, 151, 151, 1);
@@ -307,38 +206,90 @@ label, input, textarea, button {
   opacity: 1;
   text-align: right;
 }
-
-.line {
-  width: 20px;
+/*----------------------------------------------------------------*/
+.me {
+  color: rgba(151, 151, 151, 1);
+  font-family: Open Sans;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: right;
+  margin-left: auto;
+  margin-right: 0;
+  justify-self: flex-end;
 }
-
-.line2 {
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px;
+  border: 1px solid #fff;
+  transition: all 0.3s ease-in-out;
+}
+.menu ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+.menu ul li {
+  margin-right: 10px;
+}
+.menu ul li {
+  margin-right: 20px;
+}
+.menu ul {
   display: flex;
-  border-left: 6px solid rgb(255, 255, 255);
-  height: 100px;
-  position: absolute;
-  left: 70%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
-
-.line3 {
+.menu ul {
+  list-style-type: none;
   display: flex;
-  border-left: 6px solid rgb(255, 255, 255);
-  height: 100px;
-  position: absolute;
-  left: 30%;
-  margin-left: -3px;
-  top: 2050px;
+  margin: 0;
+  padding: 0;
 }
-
-.contacts   p {
-  font-size: large;
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50px;
+  right: 5%;
+  z-index: 1;
+  background-color: rgba(51, 51, 51, 0.0);
+  margin: 0;
+  padding: 0;
+}
+.menu-button {
+  position: relative;
+  transform: translateX(-50%);
+  width: 150px;
+  height: 45px;
+  background-color: #484848;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
   text-align: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
-
-hr {
-  margin-bottom: 20px;
+.menu-button:hover {
+  background-color: #fff;
+  color: rgba(51, 51, 51, 1);
 }
-
+.notification button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+.notification p {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+}
 .notification {
   display: flex;
   flex-direction: column;
@@ -356,67 +307,13 @@ hr {
   width: 80%;
   padding: 20px;
 }
-
-.notification p {
-  padding: 0;
+.notification-window .close-button {
+  display: block;
+  margin-top: 10px;
+}
+.notification-window p {
   margin: 0;
-  font-size: 18px;
 }
-
-.notification button {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  background: none;
-  border: none;
-  font-size: 24px;
-  cursor: pointer;
-}
-
-.input {
-  color: aliceblue;
-  width: 10px;
-  height: 20px;
-  background: transparent;
-}
-
-.review {
-  color: aliceblue;
-  width: 1000px;
-  height: 20px;
-  background: transparent;
-  resize: none;
-  overflow: auto;
-  resize: none;
-}
-
-.divo_texto {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.texto {
-  color: aliceblue;
-  
-  display: inline-block;
-}
-.le_small_texto1{
-  display: flex;
-  position: absolute;
-  top: 180px;
-  left: 1000px;
-  align-self: flex-end;
-
-}
-.le_small_texto2{
-  display: flex;
-  align-self: flex-start;
-  position: absolute;
-  top: 220px;
-  left: 1000px;
-}
-
 .notification-window {
   position: fixed;
   top: 50%;
@@ -426,48 +323,126 @@ hr {
   border: 1px solid black;
   padding: 20px;
 }
-
-.notification-window p {
-  margin: 0;
-}
-
-.notification-window .close-button {
-  display: block;
-  margin-top: 10px;
-}
-
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .phone {
   display: flex;
   align-items: center;
 }
-
+.phone {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  color: rgb(255, 255, 255);
+  top: auto;
+  left: auto;
+  position: relative;
+  font-family: Open Sans;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: right;
+  padding-top: 10px;
+}
+.phone_icon {
+  position: relative;
+  width: 1%;
+  height: 1%;
+  vertical-align: middle;
+}
 .phone_number {
   margin-left: 10px;
 }
-
-.menu ul {
-  display: flex;
-  list-style: none;
-  margin: 0;
-  padding: 0;
+.phone_number {
+  position: relative;
+  margin-top: 5px;
 }
-
-.menu ul li {
-  margin-right: 20px;
+.privacy-note {
+  font-size: small;
+  color: rgba(151,151,151,1);
 }
-
-.logo {
+.review {
+  color: aliceblue;
+  width: 1000px;
+  height: 20px;
+  background: transparent;
+  resize: none;
+  overflow: auto;
+  resize: none;
+}
+.rights {
+  width: auto;
+  color: rgba(151, 151, 151, 1);
+  top: auto;
+  left: auto;
+  position: relative;
+  font-family: Open Sans;
+  font-weight: Regular;
+  font-size: 12px;
+  opacity: 1;
+  text-align: right;
+}
+.section h1{
+  font-family: 'Nord Star Deco';
+  font-size: 30px;
+}
+.section {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+.texto {
+  color: aliceblue;
+  display: inline-block;
+  font-family: 'Champagne And Limousines';
+  font-weight: 300;
+  font-size: 130%;
+  
+}
+.wrapper1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-image: url(/images/other/theater.png);
 }
 
-.logo img {
-  max-width: 100%;
+.sense-of_existing{
+  position: absolute;
+  display: flex;
+  padding-top: 25px;
+  left: 75px;
+  flex-direction: column;
+  overflow: hidden;
+  width: 400px;
+}
+
+.sense-of_existing h1{
+  font-family: 'Champagne And Limousines';
+}
+.sense-of_existing p{
+  color: #fff;
+  text-align: justify;
+  font-family: 'Champagne And Limousines';
+
+}
+
+.info{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  right: 0%;  
+  padding-top: 25px;
+  right: 75px;
+  overflow: hidden;
+  font-family: 'Champagne And Limousines';
+  width: 400px;
+}
+
+.info p{
+  color: #fff;
+  text-align: justify;
+  font-family: 'Champagne And Limousines';
+
 }
