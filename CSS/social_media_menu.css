@@ -30,7 +30,7 @@
     min-width: 120px;
     padding: 12px 16px;
     z-index: 1;
-    right: -64px;
+    right: -42px;
   }
   
   .dropdown-content a {
@@ -60,7 +60,4 @@
   right: 40px;
 }
 
-.balcony{
-  padding-top: 50px;
-}
   

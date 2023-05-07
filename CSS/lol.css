@@ -50,6 +50,8 @@ nav{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 480px;
+  height: 480px;
 }
 .contacts p {
   font-size: large;
@@ -74,6 +76,9 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.contacts p{
+  font-family: 'Champagne And Limousines';
 }
 .contacts, .feedback-form {
   width: 50%;
@@ -102,7 +107,8 @@ nav{
   color: #000;
 }
 .feedback-form input {
-  width: 90%;
+  width: 240px;
+  height: 30px;
   margin-bottom: 10px;
   padding: 5px;
 }
@@ -111,7 +117,7 @@ nav{
   margin-bottom: 5px;
 }
 .feedback-form textarea {
-  width: 90%;
+  width: 100%;
   height: 100px;
   margin-bottom: 10px;
   padding: 5px;
@@ -138,6 +144,7 @@ nav{
   margin: 0;
   gap: 15px;
 }
+
 .input {
   color: aliceblue;
   width: 10px;
@@ -160,11 +167,13 @@ nav{
 }
 .line {
   width: 20px;
+  margin-top: 37px ;
+  margin-bottom: 37px ;
 }
 .line2 {
   display: flex;
   border-left: 3px solid rgb(255, 255, 255);
-  height: 300px;
+  height: 350px;
   width: 2px;
   margin-top: 40px;
   position: absolute;
@@ -173,12 +182,24 @@ nav{
 .line3 {
   display: flex;
   border-left: 3px solid rgb(255, 255, 255);
-  height: 300px;
+  height: 350px;
   width: 2px;
   margin-top: 40px;
   position: absolute;
   left: 30%;
 
+}
+
+.line4{
+  display: flex;
+  border-left: 3px solid rgb(255, 255, 255);
+  height: 3px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 700px;
+  position: absolute;
+  background-color: aliceblue ;
 }
 .logo img {
   max-width: 100%;
@@ -355,8 +376,9 @@ nav{
   position: relative;
   margin-top: 5px;
 }
-.privacy-note {
-  font-size: small;
+
+.privacy_note1 {
+  font-size: 8pt;
   color: rgba(151,151,151,1);
 }
 .review {
@@ -383,12 +405,15 @@ nav{
 .section h1{
   font-family: 'Nord Star Deco';
   font-size: 30px;
+  padding-bottom: 10px;
 }
 .section {
   display: flex;
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 .texto {
   color: aliceblue;
@@ -445,4 +470,16 @@ nav{
   text-align: justify;
   font-family: 'Champagne And Limousines';
 
+}
+
+.info h1{
+  font-family: 'Champagne And Limousines';
+}
+
+.container{
+  position: relative;
+  text-align: center;
+}
+section{
+  height: 510px;
 }

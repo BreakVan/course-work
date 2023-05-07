@@ -6,6 +6,8 @@
   <link rel="stylesheet" href="/CSS/social_media_menu.css">
   <link rel="stylesheet" href="/CSS/fonts.css">
   <link rel="stylesheet" href="/CSS/images.css">
+  <link rel="stylesheet" href="/CSS/DraggableImageSlider.css">
+  <link rel="shortcut icon" type="x-icon" href="/favicon/logo.png">
 </head>
 <body>
   <header>
@@ -100,18 +102,31 @@
     <p>500 месцаў</p>
   </div>  
 
-  
   <div class="line2"></div>
   <div class="line3"></div>
   <div class="section">
     <img class="balcony" src="/images/other/mahilyow.png" alt="balcony">
   </div>
 
-  <div class="section" id="schedule">
-    <h1>Афіша</h1><!-- Содержимое раздела Афіша -->
-  </div>
+ <div class="line4"></div>
+
   <div class="section" id="performances">
-    <h1>Спектаклі</h1><!-- Содержимое раздела Спект аклі -->
+    <h1>Спектаклі</h1>
+    <div class="wrapper">
+      <i id="left"><img class="arrow" src="/images/icons/arrow-left.svg"></i>
+    <div class="carousel">
+      <img src="/images/plays/жоўты_пясочак.png" alt="img" draggable="false" label="">
+      <img src="/images/plays/прымакі.png" alt="img" draggable="false">
+      <img src="/images/plays/Таямніца старой ратушы.png" alt="img" draggable="false">
+      <img src="/images/plays/соня.jpg" alt="img" draggable="false">
+      <img src="/images/plays/ю.jpg" alt="img" draggable="false">
+    </div>
+    <i id="right"><img src="/images/icons/arrow-right.svg"></i>
+  </div>
+</div>
+<div class="line4"></div>
+  <div class="section" id="schedule">
+    <h1>Афіша</h1><!-- Содержимое раздела Спект аклі -->
   </div>
   <div class="section" id="partners">
     <h1>Партнёры тэатра</h1><!-- Содержимое раздела Партнёры тэатра -->
@@ -122,20 +137,21 @@
   <section>
     <div class="form">
       <div class="box">
-        <div class="section">
           <div class="feedback-form">
             <form id="feedbackForm" name="feedbackForm">
-              <label for="email">Email:</label> <input type="email" id="email" name="email" class="input" laceholder="Enter your email address" required=""> <label for="name">Вашае імя  :</label> <input type="text" id="name" name="name" class="input" required=""> <label for="review">Паведамленне:</label> 
-              <textarea id="review" name="review" class="review" required=""></textarea>
-              <p class="privacy-note">* Вашыя дадзеныя не будуць перададзены трэцім асобам,<br>
-              100% верагоднасць. Канфідэнцыйнасць мы гарантуем, і<br>
-              абараняем персанальныя дадзеныя паводле законка ФЗ-52.</p>
-              <div>
+              <input type="email" id="email" name="email" class="input" placeholder="Увядзіце ваш email" required=""><input type="text" id="name" name="name" class="input" required="" placeholder="Увядзіце вашае імя"> 
+              <textarea id="review" name="review" class="review" required="" placeholder="Водгук"></textarea>
+              <div >
+                <p class="privacy_note1">
+                  *Вашыя дадзеныя не будуць перададзены трэцім асобам,
+                  100% верагоднасць. Канфідэнцыйнасць мы гарантуем, і
+                  абараняем персанальныя дадзеныя паводле закона.
+                </p>
                 <button type="submit" id="submit">Адправіць</button>
               </div>
             </form>
+            
           </div>
-        </div>
       </div>
       <div class="box">
         <div class="contacts">
@@ -156,6 +172,12 @@
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script> 
-  <script src="/JS/lol.js"></script>
+  <script src="/JS/Review.js"></script>
+  <script src="/JS/Card.js"></script>
+  <script src="/JS/DraggableImageSlider.js"></script>
+<script>
+  
+</script>
+
 </body>
 </html>

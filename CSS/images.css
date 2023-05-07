@@ -57,13 +57,18 @@
 
   .scene_img{
     height: 10%;
-    width: 15%;
+    width: 25%;
   }
   .seats_img{
     height: 10%;
-    width: 15%;
+    width: 25%;
   }
 .visitors_img{
   height: 10%;
-  width: 10%;
+  width: 20%;
+}
+
+.balcony{
+  padding-top: 30px;
+  padding-bottom: 30px;
 }

@@ -35,3 +35,7 @@
     font-family: "Champagne And Limousines";
     src: url("/fonts/Champagne/ChampagneAndLimousines-7KRB.ttf") format("truetype");
   } 
+  @font-face {
+    font-family: "Sensal Regular";
+    src: url("/fonts/SensalRegular/SensalRegular.ttf") format("truetype");
+  } 
