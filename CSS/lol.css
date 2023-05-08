@@ -456,3 +456,6 @@ section{
   flex-direction: row;
   justify-content: center;
 }
+.foot{
+  height: 10px;
+}
