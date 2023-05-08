@@ -3,6 +3,9 @@ body, footer {
   margin: 0;
   padding: 0;
 }
+html{
+  scroll-behavior: smooth;
+}
 h1, h2 {
   text-align: center;
   color: #fff;
@@ -379,7 +382,10 @@ nav{
 
 .privacy_note1 {
   font-size: 8pt;
+  
+  letter-spacing: normal;
   color: rgba(151,151,151,1);
+  font-family: 'Open Sans';
 }
 .review {
   color: aliceblue;
@@ -396,7 +402,7 @@ nav{
   top: auto;
   left: auto;
   position: relative;
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-weight: Regular;
   font-size: 12px;
   opacity: 1;
@@ -406,6 +412,13 @@ nav{
   font-family: 'Nord Star Deco';
   font-size: 30px;
   padding-bottom: 10px;
+}
+.section h2{
+  font-family: 'Nord Star Deco';
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size:smaller ;
 }
 .section {
   display: flex;

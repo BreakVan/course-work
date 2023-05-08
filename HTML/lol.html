@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Тэатр</title>
+  <title>Магілёўскі Драматычны Тэатр</title>
   <link rel="stylesheet" href="/CSS/lol.css">
   <link rel="stylesheet" href="/CSS/social_media_menu.css">
   <link rel="stylesheet" href="/CSS/fonts.css">
   <link rel="stylesheet" href="/CSS/images.css">
   <link rel="stylesheet" href="/CSS/DraggableImageSlider.css">
+  <link rel="stylesheet" href="/CSS/ImageSliderForAffiche.css">
+  <link rel="stylesheet" href="/CSS/ImageSliderForPlays.css">
+  <link rel="stylesheet" href="/CSS/Scrolling.css">
   <link rel="shortcut icon" type="x-icon" href="/favicon/logo.png">
 </head>
 <body>
-  <header>
+  <header class="scroll _anim-items">
     <div class="wrapper1">
-      <div class="phone">
+      <div class="scroll _anim-items">
+        <div class="phone">
         <img class="phone_icon" src="/images/icons/phone_icon.png" alt="phone_icon"> <span class="phone_number">+375-222-65-50-53ㅤ</span>
       </div>
-    <nav>
+    </div>
+    <nav class="scroll _anim-items">
       <div class="menu">
         <ul>
           <li>
@@ -39,10 +44,11 @@
         </ul>
       </div>
     </nav>
-      <div class="logo">
-        <a href="lol.html"><img src="/images/other/logo.png" alt="logo"></a>
+        <div class="logo">
+        <a class="scroll _anim-items" href="lol.html"><img src="/images/other/logo.png" alt="logo"></a>
       </div>
-      <div class="divo_texto">
+      <div class="scroll _anim-items">
+        <div class="divo_texto">
         <div class="le_small_texto1">
           <p class="texto">Магілёўскі абласны драматычны тэатр — старэйшы тэатр горада Магілёва і</p>
         </div>
@@ -50,21 +56,27 @@
           <p class="texto">вобласці. Заснаваны ў 1888 годзе.</p>
         </div>
       </div>
-      <div class="card card-1">
+    </div>
+      <div class="scroll _anim-items">
+        <div class="card card-1">
         <div class="glare-container">
           <div class="glare"></div>
         </div>
         <h1 class="latest">НАВІНКІ СЦЭНЫ<img class="spotlight" src="/images/icons/spotlight.svg" alt="spotlight"></h1>
       </div>
-      <div class="background-container">
+    </div>
+      <div class="scroll _anim-items">
+        <div class="background-container">
         <button onclick="location.href='#schedule'" class="menu-button">АФІША</button>
       </div>
+    </div>
       <div id="about" class="about">
         <div class="section">
-          <h1>Аб тэатры</h1>
+          <h1 class="scroll _anim-items">Аб тэатры</h1>
         </div>
       </div>
-      <div class="social-media">
+      <div class="scroll _anim-items">
+        <div class="social-media">
         <div class="dropdown">
           <button class="dropbtn">
             <svg class="media" width="800px" height="800px" viewBox="0 0 24 24" fill="#ffff" xmlns="http://www.w3.org/2000/svg">
@@ -79,13 +91,15 @@
         </div>
       </div>
     </div>
+    </div>
   </header>
-
+  <div class="scroll _anim-items">
   <div class="sense-of_existing">
     <h1>Сэнс існавання тэатра</h1>
     <div><p>Тэатральнае жыццё Магілёва - гэта адметная ва ўсіх сэнсах з&#39;ява, а гісторыя яго тэатра вось ужо больш за стагоддзе не пакідае нікога абыякавым, прымушаючы па-новаму пераасэнсоўваць ужо тое, што адбылося, задумвацца над сучаснасцю з тым, каб апярэдзіць будучыню. Тысячу разоў меў рацыю Н.В.Гогаль, напісаўшы, што "тэатр ані не цацка і зусім не пустая рэч, калі прымеш у меркаванне тое, што ў ім можа змясціцца раптам натоўп, і што ўвесь гэты натоўп, ні ў чым не падобны паміж сабой, можа раптам узрушыцца адным узрушэннем, заплакаць аднымі слязамі і засмяяцца адным усеагульным смехам. Гэта такая кафедра, з якой можна шмат сказаць свету дабра".</p></div>
   </div>
-
+</div>
+<div class="scroll _anim-items">
   <div class="info">
     <h1>Крышку аб лічбах</h1>
     <div class="scene">
@@ -101,17 +115,21 @@
     </div>
     <p>500 месцаў</p>
   </div>  
-
-  <div class="line2"></div>
+</div>
+  <div class="scroll _anim-items">
+    <div class="line2"></div>
   <div class="line3"></div>
   <div class="section">
     <img class="balcony" src="/images/other/mahilyow.png" alt="balcony">
   </div>
 
  <div class="line4"></div>
+</div>
 
-  <div class="section" id="performances">
+  <div class="scroll _anim-items">
+    <div class="section" id="performances">
     <h1>Спектаклі</h1>
+    <h2>Любімыя нашымі гледачамі спектаклі</h2>
     <div class="wrapper">
       <i id="left"><img class="arrow" src="/images/icons/arrow-left.svg"></i>
     <div class="carousel">
@@ -125,16 +143,41 @@
   </div>
 </div>
 <div class="line4"></div>
-  <div class="section" id="schedule">
-    <h1>Афіша</h1><!-- Содержимое раздела Спект аклі -->
+</div>
+  <div class="scroll _anim-items">
+    <div class="section" id="schedule">
+    <h1>Афіша</h1>
+    <h2>Актуальнае на дадзены момант</h2>
+    <div class="gallery-wrap">
+      <img class="image" src="/images/icons/arrow-left.svg" id="leftBtn">
+
+    <div class="gallery">
+    <div>
+    <span><img src="/images/plays/sonya.jpg"></span>
+    <span><img src="/images/plays/лес.jpg"></span>
+    <span><img src="/images/plays/калигула.jpg"></span>
+    </div>
+    <div>
+      <span><img src="/images/plays/дураки.jpg"></span>
+      <span><img src="/images/plays/дюйм.jpg"></span>
+      <span><img src="/images/plays/беру.jpg"></span>
+      </div>
+    </div>
+    <img class="image" src="/images/icons/arrow-right.svg" id="rightBtn">
   </div>
+  </div>
+  <div class="line4"></div>
+</div>
+  <div class="scroll _anim-items">
   <div class="section" id="partners">
     <h1>Партнёры тэатра</h1><!-- Содержимое раздела Партнёры тэатра -->
   </div>
-  <div class="section" id="contacts&feedback">
+</div>
+  <div class="scroll _anim-items"><div class="section" id="contacts&feedback">
     <h1>Кантакты | Пакінуць водгук</h1>
   </div>
-  <section>
+</div>
+  <section class="scroll _anim-items">
     <div class="form">
       <div class="box">
           <div class="feedback-form">
@@ -166,7 +209,7 @@
       </div>
     </div>
   </section>
-  <footer>
+  <footer class="scroll _anim-items">
     <div class="footer_info">
       <span class="rights">(с) Усе правы абаронены. Магілёўскі абласны драматычны тэатр 2023</span> <span class="made_by">Распрацавана by Іван “breakvan” Кручкоў</span>
     </div>
@@ -175,9 +218,7 @@
   <script src="/JS/Review.js"></script>
   <script src="/JS/Card.js"></script>
   <script src="/JS/DraggableImageSlider.js"></script>
-<script>
-  
-</script>
-
+  <script src="/JS/Scrolling.js"></script>
+  <script src="/JS/ImageSliderForAffiche.js"></script>
 </body>
 </html>
