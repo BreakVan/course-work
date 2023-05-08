@@ -33,7 +33,7 @@
   }
 
   .card-1 {
-    background-image: url(/images/plays/жоўты.png);
+    background-image: url(../images/plays/жоўты.png);
     border-radius: 5%;
     background-size: cover;
     width: 378px;

@@ -6,7 +6,7 @@ xhttp.open("GET", "/", true);
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     // Заменяем пустой футер данными из XML файла
-    document.getElementById("myFooter").innerHTML = this.responseText;
+    document.getElementById("myFooter228").innerHTML = this.responseText;
   }
 };
 // Загружаем файл
