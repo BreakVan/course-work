@@ -1,5 +1,5 @@
 var xhttp = new XMLHttpRequest();
-xhttp.open("GET", "../HTML/lol.html", true);
+xhttp.open("GET", "https://breakvan.github.io/course-work/HTML/lol.html", true);
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4) {
     if (this.status == 200) {
