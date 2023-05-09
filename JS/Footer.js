@@ -1,13 +1,12 @@
-// Создаем новый объект XMLHttpRequest
 var xhttp = new XMLHttpRequest();
-// Открываем файл footer.xml
-xhttp.open("GET", "/", true);
-// Когда файл загружен
+xhttp.open("GET", "../HTML/lol.html", true);
 xhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    // Заменяем пустой футер данными из XML файла
-    document.getElementById("myFooter228").innerHTML = this.responseText;
+  if (this.readyState == 4) {
+    if (this.status == 200) {
+      document.getElementById("myFooter228").innerHTML = this.responseText;
+    } else {
+      console.error("Failed to load footer: status " + this.status);
+    }
   }
 };
-// Загружаем файл
 xhttp.send();
