@@ -397,12 +397,16 @@ nav{
   flex-direction: column;
   overflow: hidden;
   width: 400px;
+
 }
 
 .sense-of_existing h1{
   font-family: 'Champagne And Limousines';
+  color: #fff;
+  font-size: 30px;
 }
 .sense-of_existing p{
+  font-size: 19px;
   color: #fff;
   text-align: justify;
   font-family: 'Champagne And Limousines';
@@ -425,11 +429,14 @@ nav{
   color: #fff;
   text-align: justify;
   font-family: 'Champagne And Limousines';
-
+  font-size: 19px;
 }
 
 .info h1{
   font-family: 'Champagne And Limousines';
+  color: #fff;
+  font-size: 30px;
+
 }
 
 .container{

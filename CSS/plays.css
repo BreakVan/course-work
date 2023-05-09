@@ -48,11 +48,13 @@ body {
     transform: scale(1.35) rotateZ(5deg);
   }
   
+
   
 .info > div {
     margin-top: 32px;
     margin-bottom: 32px;
     margin-right: 32px;
+    font-family: 'Open Sans';
 }
 
 .play-title {
