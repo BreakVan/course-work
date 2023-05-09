@@ -22,7 +22,7 @@
 
 body {
     min-height: 100vh;
-    background-image: url("/images/plays/соня.jpg");
+    background-image: url("../images/plays/соня.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(12px) contrast(80%);
