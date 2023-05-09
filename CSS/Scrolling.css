@@ -1,7 +1,6 @@
 
 .scroll{
     transition: all .8s ease-in-out;
-    position: relative;
     opacity: 0;
   }
 .scroll._active{
