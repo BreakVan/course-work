@@ -133,7 +133,7 @@ nav{
   justify-content: center;
   align-items: center;
 }
-div .foot {
+.footer_info {
   display: flex;
   justify-content: space-between;
   align-items: center;
