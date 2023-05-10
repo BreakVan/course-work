@@ -12,4 +12,3 @@ window.onload = function() {
     };
     xhttp.send();
   };
-  
