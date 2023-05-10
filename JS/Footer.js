@@ -1,5 +1,5 @@
 var xhttp = new XMLHttpRequest();
-xhttp.open("GET", "https://breakvan.github.io/course-work/HTML/lol.html", true);
+xhttp.open("GET", "../XML/footer.xml", true);
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4) {
     if (this.status == 200) {
@@ -10,3 +10,4 @@ xhttp.onreadystatechange = function () {
   }
 };
 xhttp.send();
+    
