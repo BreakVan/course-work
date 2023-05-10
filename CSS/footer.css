@@ -1,0 +1,35 @@
+
+.footer_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .rights {
+    width: auto;
+    color: rgba(151, 151, 151, 1);
+    top: auto;
+    left: auto;
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: right;  
+  }
+  .made_by {
+    width: auto;
+    color: rgba(151, 151, 151, 1);
+    top: auto;
+    left: auto;
+    position: relative;
+    font-family: 'Open Sans';
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: right;
+  }
+  @media screen and (max-width: 768px){
+    .footer_info{
+      
+    }
+  }

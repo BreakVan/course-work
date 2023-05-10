@@ -83,3 +83,10 @@ i img{
     top: 40px;
 }
   
+@media screen and (max-width: 768px){
+  .wrapper{
+    display: flex;
+    max-width: 500px;
+    position: relative;
+  }
+}

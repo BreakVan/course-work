@@ -1,0 +1,42 @@
+.wrapper1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-image: url(../images/other/theater.png);
+  }
+  .phone {
+    display: flex;
+    align-items: center;
+  }
+  .phone {
+    display: flex;
+    justify-content: flex-end;
+    width: auto;
+    color: rgb(255, 255, 255);
+    top: auto;
+    left: auto;
+    position: relative;
+    font-family: Open Sans;
+    font-weight: Regular;
+    font-size: 12px;
+    opacity: 1;
+    text-align: right;
+    padding-top: 10px;
+  }
+  .phone_icon {
+    position: relative;
+    width: 1%;
+    height: 1%;
+    vertical-align: middle;
+  }
+  .phone_number {
+    margin-left: 10px;
+  }
+  .phone_number {
+    position: relative;
+    margin-top: 5px;
+  }
+  

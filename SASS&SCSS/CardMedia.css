@@ -1,0 +1,23 @@
+@media only screen and (max-width: 768px){
+
+    .card-1 {
+      background-image: url(../images/plays/жоўты.png);
+      border-radius: 5%;
+      background-size: cover;
+      width: 40%;
+      height: 400px;
+      position: relative; 
+      margin-top: 100px;
+      left: 50%;
+    }
+    
+    .latest{
+        font-size: 160%;
+    }
+    .balcony{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: 10%;
+        width: 30%;
+      }
+  }

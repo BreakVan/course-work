@@ -51,6 +51,7 @@
   opacity: 0.1;
   text-decoration: none;
   transition: opacity 1s ease-in-out;
+  
   }
   
   .dropdown-content a:hover {
@@ -64,6 +65,7 @@
   background-size: cover;
   right: 40px;
   transition: transform 0.3s ease-in-out;
+  
   }
   
   .media:hover {

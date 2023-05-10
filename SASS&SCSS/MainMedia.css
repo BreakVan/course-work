@@ -1,0 +1,132 @@
+@media screen and (max-width: 768px){
+    .logo img{
+        position: relative;
+        width: 50%;
+        height: 50%;
+
+  }
+  .background-container {
+    bottom: -230px;
+    left: 15%;
+    width: 125px;
+    height: 35px;
+  }
+  .menu-button {
+    width: 125px;
+    height: 35px;
+  }
+
+  .le_small_texto1{
+    top: 180px;
+    left: 135px;
+    font-size: small;
+  }
+  .le_small_texto2{
+    top: 210px;
+    left: 135px;
+    font-size: small;
+  }
+
+  .phone_icon {
+    width: 2%;
+    height: 2%;
+  }
+
+  .sense-of_existing{
+    position: absolute;
+    display: flex;
+    padding-top: 25px;
+    left: 25px;
+    flex-direction: column;
+    overflow: hidden;
+    width: 210px;
+  
+  }
+  
+  .sense-of_existing h1{
+    font-family: 'Champagne And Limousines';
+    color: #fff;
+    font-size: 20px;
+  }
+  .sense-of_existing p{
+    font-size: 12px;
+    color: #fff;
+    text-align: justify;
+    font-family: 'Champagne And Limousines';
+  
+  }
+  
+  .info{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    right: 25px;
+    overflow: hidden;
+    font-family: 'Champagne And Limousines';
+    width: 210px;
+  }
+  
+  .info p{
+    font-family: 'Champagne And Limousines';
+    color: #fff;
+    font-size: 12px;
+    text-align: justify;
+  }
+  
+  .info h1{
+    font-family: 'Champagne And Limousines';
+    color: #fff;
+    font-size: 20px;  
+  }
+
+  .line2 {
+    display: flex;
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 250px;
+    width: 2px;
+    margin-top: 45px;
+    position: absolute;
+    left: 67.5%;
+  }
+  .line3 {
+    display: flex;
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 250px;
+    width: 2px;
+    margin-top: 45px;
+    position: absolute;
+    left: 32.5%;
+  
+  }
+  
+  .line4{
+    display: flex;
+    border-left: 3px solid rgb(255, 255, 255);
+    height: 3px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    position: absolute;
+    background-color: aliceblue ;
+  }
+  .partners1{
+    display: flex;
+    flex-direction: row;
+    left: 0;
+    right: 0;
+  }
+  .partners1 img{
+    width: 200px;
+    height: 80  px;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+  .partners2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+  

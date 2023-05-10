@@ -1,16 +1,4 @@
-@media only screen and (max-width: 768px){
-  .menu ul li a {
-    text-decoration: none;
-    font-family: 'Open Sans';
-    font-weight: 500;
-    color: #fff;
-    padding: 1px;
-    right: 40px;
-    border: 1px solid #fff;
-    transition: all 0.3s ease-in-out;
-    font-size: small;
-  }
-}
+
 .menu ul li a {
     text-decoration: none;
     font-family: 'Open Sans';
@@ -20,6 +8,7 @@
     right: 40px;
     border: 1px solid #fff;
     transition: all 0.3s ease-in-out;
+    font-size: large;
   }
   .menu ul li a:hover {
     background-color: #fff;
