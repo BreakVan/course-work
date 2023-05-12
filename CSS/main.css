@@ -152,7 +152,7 @@ label, input, textarea, button {
   display: flex;
   position: absolute;
   top: 180px;
-  left: 950px;
+  left: 775px;
   align-self: flex-end;
 }
 .le_small_texto2{
@@ -160,7 +160,7 @@ label, input, textarea, button {
   align-self: flex-start;
   position: absolute;
   top: 220px;
-  left: 950px;
+  left: 775px;
 }
 .line {
   width: 20px;

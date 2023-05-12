@@ -285,10 +285,11 @@
 
 }
 .background-container {
-bottom: -230px;
+bottom: -280px;
 left: 15%;
 width: 125px;
 height: 35px;
+display: none;
 }
 .menu-button {
 width: 125px;
@@ -296,13 +297,13 @@ height: 35px;
 }
 
 .le_small_texto1{
-top: 180px;
-left: 135px;
+top: 200px;
+left: 15px;
 font-size: small;
 }
 .le_small_texto2{
-top: 210px;
-left: 135px;
+top: 240px;
+left: 15px;
 font-size: small;
 }
 
@@ -394,7 +395,9 @@ background-color: aliceblue ;
 display: flex;
 flex-direction: row;
 left: 0;
-right: 0;
+right: 10%;
+width: 100px;
+display: none;
 }
 .partners1 img{
 width: 200px;
@@ -408,7 +411,7 @@ flex-direction: row;
 justify-content: center;
 }
 .box{ 
-width: 200px;
+width: auto;
 height: 320px;
 }
 }

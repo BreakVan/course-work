@@ -55,9 +55,11 @@
       background-size: cover;
       width: 50%;
       height: 300px;
+    margin-top: 200px;
       left: 10%;
       position: static;
       margin: 0;
+      display: none;
     }
     
     .latest{

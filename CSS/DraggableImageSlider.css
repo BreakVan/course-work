@@ -70,9 +70,9 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 425px) {
   .carousel img{
-    width: 100%;
+    width: 100px;
   }
 }
 
