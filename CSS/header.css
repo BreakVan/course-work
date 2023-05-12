@@ -6,6 +6,8 @@
     background-size: cover;
     background-position: center top;
     background-image: url(../images/other/theater.png);
+    max-width: 100vw;
+    overflow-x: hidden;
   }
   .phone {
     display: flex;

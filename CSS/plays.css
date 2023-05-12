@@ -11,7 +11,6 @@
     display: flex;
     grid-template-columns: 480px 1fr;
     grid-gap: 32px;
-    backdrop-filter: blur(12px) contrast(80%);
     color: white;
 }
 
@@ -21,12 +20,13 @@
 }
 
 body {
-    min-height: 100vh;
-    background-image: url("../images/plays/соня.jpg");
+    
+    background-image: url("../images/plays/соня.png");
     background-repeat: no-repeat;
+    background-position:bottom;
+    position: relative;
     background-size: cover;
-    backdrop-filter: blur(12px) contrast(80%);
-    -webkit-backdrop-filter: blur(12px) contrast(80%);
+    width: 100%;
   }
   
   .poster {

@@ -28,8 +28,12 @@
     opacity: 1;
     text-align: right;
   }
-  @media screen and (max-width: 768px){
-    .footer_info{
-      /*  */
+  @media screen and (max-width: 425px){
+    .made_by{
+      font-size: small;
+    }
+    .rights{
+      font-size: small;
+      margin-right: 35px;
     }
   }

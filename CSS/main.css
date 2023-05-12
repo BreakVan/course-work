@@ -3,6 +3,7 @@ body, footer {
   background: #333333;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 html{
   scroll-behavior: smooth;
@@ -69,7 +70,7 @@ label, input, textarea, button {
   top:0px;
   right:0px;
   bottom: 0px;
-  font-family:Open Sans Condensed;
+  font-family:'Open Sans' Condensed;
   text-align:left;
   font-size:16px;
   letter-spacing:7;
@@ -217,7 +218,7 @@ label, input, textarea, button {
   top: auto;
   left: auto;
   position: relative;
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-weight: Regular;
   font-size: 12px;
   opacity: 1;
@@ -226,7 +227,7 @@ label, input, textarea, button {
 /*----------------------------------------------------------------*/
 .me {
   color: rgba(151, 151, 151, 1);
-  font-family: Open Sans;
+  font-family: 'Open Sans';
   font-weight: Regular;
   font-size: 12px;
   opacity: 1;

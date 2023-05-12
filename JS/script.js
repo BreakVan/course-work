@@ -52,8 +52,6 @@ container.addEventListener('click', (e) => {
     updateSelectedCount();
   }
 });
-
-
 purchaseButton = document.getElementById('purchaseButton');
 container.appendChild(purchaseButton);
 
@@ -81,9 +79,6 @@ purchaseButton.addEventListener('click', () => {
     container.appendChild(notification);
   }
 });
-
-
-
 function createNotification(message) {
   const notification = document.createElement('div');
   notification.classList.add('notification');
