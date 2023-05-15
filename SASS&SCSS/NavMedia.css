@@ -1,38 +1,37 @@
-@media screen and (max-width: 768px){
-    .menu ul li a {
-      text-decoration: none;
-      font-family: 'Open Sans';
-      font-weight: 500;
-      color: #fff;
-      padding: 1px;
-      right: 40px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-in-out;
-      font-size: 7.5pt;
-    }
+@media screen and (max-width: 768px) {
+  .menu ul li a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #fff;
+    padding: 1px;
+    right: 40px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    font-size: 7.5pt;
   }
-  @media screen and (max-width: 425px){
-    .menu ul li a {
-      text-decoration: none;
-      font-family: 'Open Sans';
-      font-weight: 500;
-      color: #fff;
-      padding: 1px;
-      border: 1px solid #fff;
-      transition: all 0.3s ease-in-out;
-      font-size: 4pt;
-    }
-    .menu {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      position: absolute;
-      top: 75px;
-      right: -4%;
-      z-index: 1;
-      background-color: rgba(51, 51, 51, 0.0);
-      margin: 0;
-      padding: 0;
-    }
-
+}
+@media screen and (max-width: 425px) {
+  .menu ul li a {
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 500;
+    color: #fff;
+    padding: 1px;
+    border: 1px solid #fff;
+    transition: all 0.3s ease-in-out;
+    font-size: 4pt;
   }
+  .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75px;
+    right: -4%;
+    z-index: 1;
+    background-color: rgba(51, 51, 51, 0);
+    margin: 0;
+    padding: 0;
+  }
+}/*# sourceMappingURL=NavMedia.css.map */
