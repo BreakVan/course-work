@@ -86,7 +86,7 @@ i img{
 @media screen and (max-width: 768px){
   .wrapper{
     display: flex;
-    max-width: 500px;
+    max-width: 300px;
     position: relative;
   }
 }
