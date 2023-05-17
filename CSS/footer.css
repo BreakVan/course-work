@@ -28,6 +28,7 @@
     opacity: 1;
     text-align: right;
   }
+<<<<<<< HEAD
   @media screen and (max-width: 425px){
     .made_by{
       font-size: small;
@@ -35,5 +36,10 @@
     .rights{
       font-size: small;
       margin-right: 35px;
+=======
+  @media screen and (max-width: 768px){
+    .footer_info{
+      
+>>>>>>> parent of 65dd136 (fixes)
     }
   }
